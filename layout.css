@@ -1,26 +1,21 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #286a91;
   display: flex;
+  justify-content: center;
 }
 
 ul li a {
-  font-family: ariel;
+  font-family: Arial;
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #4c61d4;
+  background-color: rgb(34, 69, 109);
+
 }
