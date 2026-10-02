@@ -1,44 +1,20 @@
-.navbar {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #286a91;
   display: flex;
   justify-content: center;
 }
 
-.navbar a,
-.dropbtn {
+ul li a {
   font-family: Arial;
-  color: white;
+  display: block;
+  color: rgb(255,255,255);
   padding: 14px 16px;
   text-decoration: none;
-  border: none;
-  background-color: #286a91;
-  font-size: 16px;
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: rgb(34, 69, 109);
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #286a91;
-  min-width: 180px;
-}
-
-.dropdown-content a {
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(34, 69, 109);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+ul li a:hover {
+  background-color: rbg(34,69,100);
 }
