@@ -16,7 +16,7 @@ ul {
 ul li a {
   font-family: ariel;
   display: block;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   text-decoration: none;
 }
